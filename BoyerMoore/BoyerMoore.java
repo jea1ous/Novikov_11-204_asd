@@ -13,7 +13,7 @@ public class BoyerMoore {
         }
 
         int[] last = new int[10000];
-        for (int i = 0; i < 256; i++) {
+        for (int i = 0; i < 10000; i++) {
             last[i] = -1;
         }
         for (int i = 0; i < m; i++) {
